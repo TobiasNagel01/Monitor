@@ -4,5 +4,5 @@
     <x-input :model="$tenant ?? null" id="name" title="Name"/>
 </div>
 <div class="flex items-center justify-end space-x-4">
-    <x-interface.button submit text="Save"/>
+    <x-button::outline.blue text="Save" submit />
 </div>

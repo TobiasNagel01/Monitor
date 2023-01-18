@@ -1,10 +1,10 @@
 <x-app-layout>
     <x-slot name="header">
-        {{ __('Tenants') }}
+        {{ __('Users') }}
     </x-slot>
 
     <x-slot name="headerButton">
-        <x-interface.button type="btn-secondary" text="Back" :route="route('users.index')" />
+        <x-button::outline.dark text="Back" :link="route('users.index')" />
     </x-slot>
 
     <section class="bg-white dark:bg-gray-900">

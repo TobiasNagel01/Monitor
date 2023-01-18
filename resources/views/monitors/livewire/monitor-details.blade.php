@@ -5,7 +5,7 @@
                 <div class="w-24 h-24 mb-3 rounded-full shadow-lg @if($lastPings->first()?->state == 200) bg-green-600 @else bg-red-600 @endif"></div>
                 <h5 class="mb-1 text-xl font-medium text-gray-900 dark:text-white">{{ $lastPings->first()?->state ?? '...' }}</h5>
                 <div class="flex mt-4 space-x-3 md:mt-6">
-                    <x-interface.button route="{{ route('monitors.runNow', $monitor) }}" text="Run now"/>
+                    <x-button::outline.blue text="Run now" :link="route('monitors.runNow', $monitor)" />
                 </div>
             </div>
         </div>

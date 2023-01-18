@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a3486999472b8fc81fbe78045249a00c",
+    "content-hash": "2210f3efcba9697ff6a0b9a06dffd6b3",
     "packages": [
         {
             "name": "blade-ui-kit/blade-heroicons",
@@ -5359,6 +5359,57 @@
                 "source": "https://github.com/tijsverkoyen/CssToInlineStyles/tree/2.2.6"
             },
             "time": "2023-01-03T09:29:04+00:00"
+        },
+        {
+            "name": "tobiasnagel01/tailwind-buttons",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TobiasNagel01/tailwind-buttons.git",
+                "reference": "3ea4f8fa36f996b690c65068289c585e24f6c885"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TobiasNagel01/tailwind-buttons/zipball/3ea4f8fa36f996b690c65068289c585e24f6c885",
+                "reference": "3ea4f8fa36f996b690c65068289c585e24f6c885",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "^9.0",
+                "php": "^8.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^7.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "TobiasNagel01\\TailwindButtons\\TailwindButtonsServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "TobiasNagel01\\TailwindButtons\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tobias Nagel",
+                    "email": "tobias.nagel001@gmail.com"
+                }
+            ],
+            "description": "Button Components using Tailwind CSS",
+            "support": {
+                "issues": "https://github.com/TobiasNagel01/tailwind-buttons/issues",
+                "source": "https://github.com/TobiasNagel01/tailwind-buttons/tree/1.1.1"
+            },
+            "time": "2023-01-18T21:28:58+00:00"
         },
         {
             "name": "vlucas/phpdotenv",

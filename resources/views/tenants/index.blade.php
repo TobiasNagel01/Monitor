@@ -4,7 +4,7 @@
     </x-slot>
 
     <x-slot name="headerButton">
-        <x-interface.button text="New Tenant" :route="route('tenants.create')"/>
+        <x-button::outline.blue text="New Tenant" :link="route('tenants.create')" />
     </x-slot>
 
     <div class="py-12">

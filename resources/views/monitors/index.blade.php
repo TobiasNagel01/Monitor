@@ -4,7 +4,7 @@
     </x-slot>
 
     <x-slot name="headerButton">
-        <x-interface.button text="New Monitor" :route="route('monitors.create')"/>
+        <x-button::outline.blue text="New Monitor" :link="route('monitors.create')" />
     </x-slot>
 
     <div class="py-12">
@@ -21,9 +21,11 @@
                                     <th class="py-3.5 pl-4 pr-3 text-left text-sm font-semibold">
                                         Name
                                     </th>
-                                    <th class="px-3 py-3.5 text-left text-sm font-semibold">Ziel
+                                    <th class="px-3 py-3.5 text-left text-sm font-semibold">
+                                        Ziel
                                     </th>
-                                    <th class="px-3 py-3.5 text-left text-sm font-semibold">Ersteller
+                                    <th class="px-3 py-3.5 text-left text-sm font-semibold">
+                                        Ersteller
                                     </th>
                                     <th class="relative py-3.5 pl-3 pr-4 sm:pr-6"></th>
                                 </tr>

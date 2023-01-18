@@ -4,7 +4,7 @@
     </x-slot>
 
     <x-slot name="headerButton">
-        <x-interface.button type="btn-secondary" text="Back" :route="route('monitors.index')"/>
+        <x-button::outline.dark text="Back" :link="route('monitors.index')" />
     </x-slot>
 
     <div class="py-12">
